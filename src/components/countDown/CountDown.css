@@ -1,0 +1,37 @@
+.CountDown {
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 6%);
+}
+
+.CountDown .countdown-title {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-title svg {
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+.CountDown .timer {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+    .CountDown {
+        max-width: 280px;
+    }
+}
